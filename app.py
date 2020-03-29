@@ -8,7 +8,7 @@ from dash.dependencies import Input, Output
 import pandas as pd
 
 baseURL = "//data//novel-corona-virus-2019-dataset-2/"
-world_coordinates = pd.read_csv('https://github.com/maheshsai252/dash-corona/blob/master/dash-pkg/data/world_coordinates.csv')
+world_coordinates = pd.read_csv('//data//world_coordinates.csv')
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
 tickFont = {'size':12, 'color':"rgb(30,30,30)", 'family':"Courier New, monospace"}
